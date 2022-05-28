@@ -1,0 +1,18 @@
+/* Your code here */
+main {
+    margin: 0 20% 0 20%;
+   
+}
+
+.main a {
+    font-size: 12px;
+}
+
+.main ul {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    
+}

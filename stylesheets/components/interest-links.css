@@ -1,0 +1,95 @@
+/* Your code here */
+
+.toolbar {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+.dog {
+    width: 25%;
+}
+.cat {
+    width: 25%;
+}
+
+.usb {
+    width: 25%;
+}
+
+.stock {
+    width: 18%;
+}
+
+.weather {
+    width: 18%;
+}
+
+#lrbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boximage {
+    width: 40%;
+    padding: 15px;
+}
+
+.boxtext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.boxtext h5 {
+    font-size: 13px;
+}
+.boxtext p {
+    font-size: 13px;
+}
+
+
+.stock {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: space-between; */
+   
+}
+
+#stocks {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 5px 0 0 0;
+}
+
+.stock1 {
+    border-bottom: 1px solid gray;
+}
+
+.stock2 {
+    border-bottom: 1px solid gray;
+}
+
+.change {
+    color: green;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.weathericon{
+    width: 50%;
+}
+
+.temperature {
+    
+}
